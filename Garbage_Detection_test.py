@@ -15,7 +15,7 @@ model = joblib.load('CNN_model.pkl')
 
 #print(model.summary())
 
-path ="C:\\Users\\Lenovo\\Downloads\\Smart India- Garbage Detection\\ambiguous-annotated-images"
+path = input()
 categories = ['Non Garbage', 'Garbage']
 
 test_images = []
